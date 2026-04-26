@@ -22,9 +22,14 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   padding: 0;
   font-weight: normal;
 }
-h1, h2, h3{
-  font-family: var(--font-heading);
+h1,h2,h3{
+ font-family:var(--font-heading);
 }
+
+h1,h2{
+ font-weight:400;
+}
+
 ol, ul {
   list-style: none;
 }
@@ -33,7 +38,7 @@ ol, ul {
 *{
     box-sizing: border-box;
     line-height: 1.35;
-    font-family: var(--font-body);
+    /* font-family: var(--font-body); */
 }
 
 /* --------------END CSS REST-------------- */
