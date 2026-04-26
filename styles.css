@@ -6,6 +6,35 @@
 
 /* ///ADD/// CSS Reset */
 
+/* RESET */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+/* ---------- GLOBAL STYLES ---------- */
+*{
+    box-sizing: border-box;
+    line-height: 1.35;
+    font-family: var(--font-body);
+}
+
+/* --------------END CSS REST-------------- */
 
 /* Root Variables */
 :root {
@@ -40,8 +69,40 @@ body.dark-mode {
 }
 
 /* ///ADD/// Skip Link Styles */
+#skip{
+
+
+
+}
 
 /* ///ADD/// Navigation Styles */
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+.menu li {
+  margin: 0;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px 18px;
+  color: var(--watchdog-white);
+  background-color: var(--news-flash); 
+  opacity: 90%;
+  text-decoration: none;
+  border-radius: 4px; 
+  margin: 5px; 
+  font-size: 14px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu li a:hover {
+  opacity: 100%;
+}
 
 /* ///ADD/// Global Layout Styles */
 
@@ -63,4 +124,34 @@ body.dark-mode {
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
 
+}
+
+
+/*  styling */
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+/* Submit button */
+button
+{
+  background-color: var(--blue-bulletin) !important;
+  font-size: 18 !important;
+  font-weight: 800;
+  color: var(--watchdog-white);
+}
+
+.container {
+    width: 100%;     
+    padding: 5px;
+    margin-top: 10px;
 }
