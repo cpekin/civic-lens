@@ -136,6 +136,12 @@ body.dark-mode {
   color: var(--watchdog-white);
   font-family: var(--font-heading);
   margin-bottom: 10px;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2.5rem;
+
+  
 }
 /* new addition */
 /* Cenetr Header contnt */
