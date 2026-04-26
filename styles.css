@@ -50,6 +50,12 @@ ol, ul {
 }
 
 /* Manual Light/Dark Mode Styles*/
+/* new */
+body{
+  background-color: var(--watchdog-white);
+  color: var(--truth-text);
+}
+/* old */
 body.light-mode {
   background-color: var(--watchdog-white);
   color: var(--truth-text);
