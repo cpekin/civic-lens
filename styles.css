@@ -209,6 +209,62 @@ button
 
 
 
+/* ///ADD/// medium styles 620px */
+@media screen and (min-width: 620px){
+
+  .menu{
+    justify-content:center;
+  }
+
+  .news-container{
+    grid-template-columns:1fr 1fr;
+  }
+
+  body{
+    font-size:1rem;
+  }
+
+}
+
+/* ///ADD/// large styles 920px */
+@media screen and (min-width: 920px){
+
+  .menu{
+    gap:1rem;
+  }
+
+  .news-container{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .news-container3{
+    grid-template-columns:1fr 1fr 1fr;
+  }
+
+  body{
+    font-size:1.05rem;
+  }
+
+}
+
+/* ///ADD/// x-large styles 1024px */
+@media screen and (min-width: 1024px){
+
+  .container{
+    max-width:1400px;
+    margin:auto;
+  }
+
+  .menu{
+    gap:2rem;
+  }
+
+  body{
+    font-size:1.1rem;
+  }
+
+}
+
 
 
 
