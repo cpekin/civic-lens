@@ -359,6 +359,7 @@ border: solid 1px gray;
 
 
   display:flex;
+   color: var(--watchdog-white);
 }
 
 .news-card-content {
@@ -368,7 +369,8 @@ background-color: var(--news-flash);
 display:flex;
   flex-direction:column;
   height:100%;
-
+ 
+  color: var(--watchdog-white);
 
 }
 
@@ -383,11 +385,11 @@ box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 width: 100%;
 border-radius: 5px 5px 0 0;
 }
-.breaking-news-video p,
+/* .breaking-news-video p,
 .breaking-news-video h3
 {
   color: var(--watchdog-white);
-}
+} */
 
 /* ---------------------------End news cards--------------------------------- */
 
