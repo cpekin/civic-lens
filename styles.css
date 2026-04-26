@@ -325,7 +325,15 @@ border-radius: 5px 5px 0 0;
 /* Form styles */
 .form {
   background-color: var(--news-flash);
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  
+  padding-bottom: 1rem;
+}
+/* Make Text for Labels and names = white */
+.form,
+.form label,
+.form legend{
+ color:white;
 }
 
 .form-row {
@@ -365,6 +373,9 @@ input[type="tel"] {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
+}
+input[type="checkbox"]{
+  accent-color: #111;
 }
 
 
