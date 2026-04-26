@@ -105,8 +105,99 @@ body.dark-mode {
 }
 
 /* ///ADD/// Global Layout Styles */
-
 /* ///ADD/// Global Text Styles */
+
+
+.header{
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  font-family: var(--font-heading);
+  margin-bottom: 10px;
+}
+
+.footer{
+  background-color: var(--blue-bulletin);
+  color: var(--watchdog-white);
+  font-family: var(--font-heading);
+  margin-bottom: 10px;
+}
+
+
+/*  styling */
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.tagline{
+  font-weight: 800;
+}
+
+/* ///END OF/// Global Text Styles */
+
+/* Submit button */
+button
+{
+  background-color: var(--blue-bulletin) !important;
+  font-size: 18 !important;
+  font-weight: 800;
+  color: var(--watchdog-white);
+}
+
+.container {
+  width: 100%;     
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.css-grid-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.css-grid-container2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+  padding: 10px;
+}
+
+.news-container3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  padding: 10px;
+}
+
+.form-row {
+  display: flex;             
+  gap: 1rem;                   
+  width: 100%;                 
+}
+
+.form-group {
+  flex: 1;                    
+  display: flex;
+  flex-direction: column;      
+}
+
 
 
 /* ///ADD/// medium styles 620px */
@@ -126,32 +217,3 @@ body.dark-mode {
 
 }
 
-
-/*  styling */
-
-h2 {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-}
-
-p {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin-left: 10px;
-}
-
-/* Submit button */
-button
-{
-  background-color: var(--blue-bulletin) !important;
-  font-size: 18 !important;
-  font-weight: 800;
-  color: var(--watchdog-white);
-}
-
-.container {
-    width: 100%;     
-    padding: 5px;
-    margin-top: 10px;
-}
