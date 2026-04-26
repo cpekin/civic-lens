@@ -379,7 +379,7 @@ box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 .breaking-news-video {
    margin-top:auto;
 
-
+color: var(--watchdog-white);
 width: 100%;
 border-radius: 5px 5px 0 0;
 }
