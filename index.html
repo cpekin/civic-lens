@@ -105,32 +105,115 @@
         
         
       <h2>Stay Informed. Stay Empowered.</h2>
-        Receive text messages with the news you want to know.
+
+
+<!-- FORM START -->
+      <div class="form">
+        <!-- POST LINK -->
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post" >
+          
+          <fieldset /*class="fieldsetBorderNone"*/ title="This area allows the user to enter their name and mobile phone number in order to subscribe for notifications.">
+            <legend>USER INFORMATION</legend>
+            
+              <div class="form-row">
+                <div class="form-group">
+                <label for="userName" title="Enter your name to subscribe for notifications.">Name</label>
+                <input id="name" name="name" type="text" maxlength="100" placeholder="Enter your name"/>
+                </div>
+              
+
+              <div class="form-group">
+                <label for="userPhone" title="Enter your mobile phone to subscribe for notifications.">Mobile</label>
+                <input  id="phone" name="phone" type="text" maxlength="12" placeholder="Enter your mobile phone. Example: 123-456-7890" inputmode="numeric" pattern="[0-9]{3}\-[0-9]{3}\-[0-9]{4}*"/>
+              </div>
+            </div>
+
+          </fieldset>
+
+          </br>
+        <!-- RADIO BUTTONS FOR FORM -->
+          <fieldset title="This area offers multiple news topics to subscribe for.">
+            <legend>NOTIFICATION PREFERENCES</legend>
+             
+            <div class="css-grid-container3">
+          
+                <div>
+                <input id="breackingNews" name="breackingNews" type="checkbox" title="Check this box to subscribe for breacking news."></checkbox>
+                <label for="breackingNews">Breaking News</label>
+                </div>
+          
+                <div>
+                <input id="politics" name="politics" type="checkbox" title="Check this box to subscribe for politics."></checkbox>
+                <label for="politics">Politics</label>
+                </div>
+
+                <div>
+                <input id="weather" name="weather" type="checkbox" title="Check this box to subscribe for weather news."></checkbox>
+                <label for="weather">Weather</label>
+                </div>
+
+                <div>
+                <input id="sports" name="sports" type="checkbox" title="Check this box to subscribe for sports news."></checkbox>
+                <label for="sports">Sports</label>
+                </div>
+
+                <div>
+                <input id="entertainment" name="entertainment" type="checkbox" title="Check this box to subscribe for entertainment news."></checkbox>
+                <label for="entertainment">Entertainment</label>
+                </div>
+
+                <div>
+                <input id="world" name="world" type="checkbox" title="Check this box to subscribe for world news."></checkbox>
+                <label for="world">World</label>
+                </div>
+
+                <div>
+                <input  id="financial" name="financial" type="checkbox" title="Check this box to subscribe for financial news."></checkbox>
+                <label for="financial">Financial</label>
+                </div>
+
+              </div>
+          </fieldset>
+
         
-        Name
         
-        Mobile
-        
-        Notification Preferences
-        
-        Breaking News
-        Politics
-        Weather
-        Sports
-        Entertainment
-        World
-        Financial
-        
-        Subscribe
+        <div class="container">
+            
+              <button type="submit" class="full-width-btn" title="Submit notification preferences">Subscribe</button>
+        </div>
+
+      </form>
+       </div>
+
+       <!-- FORM END -->
+<!-- Receive text messages with the news you want to know. -->
+       
       
-      <h2>Follow Us</h2>
+      <!-- <h2>Follow Us</h2>
         Twitter/X
         Instagram
         YouTube
         TikTok
-        LinkedIn
+        LinkedIn -->
+
+        <!-- //FOOTER -->
+    <div class="footer">
+
+      <h2 id="follow-us">Follow Us</h2>
+
+      <!-- SOCIAL MEIDA CONNECTION LINKS -->
+      <ul class="menu">
+        <li><a href="https://x.com/" target="_blank">Twitter/X</a></li>
+        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        <li><a href="https://www.tiktok.com" target="_blank">TikTok</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+      </ul>
+        
         
         &copy; 2025 Civic Lens. All rights reserved.
+      
+      </div>
         
         
   <script>
