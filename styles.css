@@ -334,7 +334,8 @@ button
 box-shadow: var(--shadow);
 transition: var(--transition);
 border-radius: 5px;
-width: 90%;
+/* width: 90%; */
+width: 100%;
 border: solid 1px gray;
 }
 
