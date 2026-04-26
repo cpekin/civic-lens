@@ -166,8 +166,8 @@ body.dark-mode {
   margin-left: auto;
   margin-right: auto;
 }
-footer p{
-  text-align: center;
+.footer p{
+  text-align:center;
 }
 .footer .menu{
   display: flex;
