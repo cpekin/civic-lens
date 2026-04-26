@@ -151,16 +151,7 @@ body.dark-mode {
 .menu-button{
   display: none;
 }
-/* //mess with */
-.header .menu li a{
-  margin: 0;
-  
-  border-radius: 0;
-  
-  text-transform: uppercase;
-  
-  font-weight: 800;
-}
+
 
 
 .footer{
@@ -227,6 +218,10 @@ p {
 
 .tagline{
   font-weight: 800;
+}
+
+blockquote{
+  text-align:center;
 }
 
 /* ///END OF/// Global Text Styles */
@@ -327,11 +322,20 @@ transition: var(--transition);
 border-radius: 5px;
 width: 90%;
 border: solid 1px gray;
+
+
+  display:flex;
 }
 
 .news-card-content {
 padding: 16px;
 background-color: var(--news-flash);
+
+display:flex;
+  flex-direction:column;
+  height:100%;
+
+
 }
 
 .news-card:hover {
@@ -339,6 +343,9 @@ box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 }
 
 .news-card-video {
+   margin-top:auto;
+
+   
 width: 100%;
 border-radius: 5px 5px 0 0;
 }
