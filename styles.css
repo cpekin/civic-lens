@@ -116,6 +116,13 @@ body.dark-mode {
   background-color: var(--news-flash); 
   opacity: 90%;
   text-decoration: none;
+
+ border-width: 1px;
+border-style: solid;
+border-color: #000;
+
+      padding:12px 22px;
+
   /* border-radius: 4px;  */
     border-radius: 0px; 
   margin: 5px; 
@@ -141,7 +148,7 @@ body.dark-mode {
   padding-bottom: 2rem;
   padding-left: 2.5rem;
 
-  
+
 }
 /* new addition */
 /* Cenetr Header contnt */
@@ -454,6 +461,7 @@ input[type="checkbox"]{
     .menu li a {
         margin: 3px 0;
         text-align: center;
+        
     }
 }
 /* __________________________________________________________________ */
