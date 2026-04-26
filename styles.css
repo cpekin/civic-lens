@@ -411,10 +411,21 @@ input[type="tel"] {
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
 
-/* to do */
+@media (prefers-color-scheme: dark)
+{
+  body{
+     background:#222;
+    color:#fff;
+  }
+}
 
-
-
+@media (prefers-reduced-motion: reduce)
+{
+ *{
+   animation:none !important;
+     transition:none !important;
+ }
+}
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
