@@ -379,9 +379,14 @@ box-shadow: 0 8px 16px rgba(0,0,0,0.3);
 .breaking-news-video {
    margin-top:auto;
 
-color: var(--watchdog-white);
+/* color: var(--watchdog-white); */
 width: 100%;
 border-radius: 5px 5px 0 0;
+}
+.breaking-news-video p,
+.breaking-news-video h3
+{
+  color: var(--watchdog-white);
 }
 
 /* ---------------------------End news cards--------------------------------- */
@@ -530,7 +535,7 @@ input[type="checkbox"]{
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
 
-/* @media (prefers-color-scheme: dark)
+@media (prefers-color-scheme: dark)
 {
   body{
      background:#222;
@@ -544,7 +549,7 @@ input[type="checkbox"]{
    animation:none !important;
      transition:none !important;
  }
-} */
+}
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
