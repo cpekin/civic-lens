@@ -154,6 +154,9 @@ body.dark-mode {
   margin-left: auto;
   margin-right: auto;
 }
+footer p{
+  text-align: center;
+}
 
 
 /*  styling */
@@ -422,7 +425,7 @@ input[type="tel"] {
 
 /* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
 
-@media (prefers-color-scheme: dark)
+/* @media (prefers-color-scheme: dark)
 {
   body{
      background:#222;
@@ -436,7 +439,7 @@ input[type="tel"] {
    animation:none !important;
      transition:none !important;
  }
-}
+} */
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
